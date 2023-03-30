@@ -1,5 +1,15 @@
 {
   "products": [
+       {
+      "id": 1,
+      "name": "Thirdy Gayares",
+      "description": "Pogi mo",
+      "price": 12,
+      "quantity": 2,
+      "image": "https://example.com/iphone13.png"
+    },
+    
+    
     {
       "id": 14454,
       "name": "iPhone 13",
