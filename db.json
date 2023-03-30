@@ -1,5 +1,13 @@
 {
   "products": [
+       {
+      "id": 8,
+      "name": "Alden Richard",
+      "description": "Pogiss mo",
+      "price": 12,
+      "quantity": 2,
+      "image": "https://example.com/iphone13.png"
+    },
       {
       "id": 4,
       "name": "Thirdy dsdds",
