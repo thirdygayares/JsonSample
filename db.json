@@ -1,0 +1,110 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "iPhone 13",
+      "description": "The latest iPhone from Apple",
+      "price": 999,
+      "quantity": 10,
+      "image": "https://example.com/iphone13.png"
+    },
+    {
+      "id": 2,
+      "name": "Samsung Galaxy S21",
+      "description": "A popular Android smartphone",
+      "price": 799,
+      "quantity": 5,
+      "image": "https://example.com/galaxys21.png"
+    },
+    {
+      "id": 3,
+      "name": "MacBook Pro",
+      "description": "Powerful laptop from Apple",
+      "price": 1999,
+      "quantity": 3,
+      "image": "https://example.com/macbookpro.png"
+    },
+    {
+      "id": 4,
+      "name": "Samsung Galaxy Tab S7",
+      "description": "A premium Android tablet",
+      "price": 599,
+      "quantity": 8,
+      "image": "https://example.com/galaxytabs7.png"
+    },
+    {
+      "id": 5,
+      "name": "AirPods Pro",
+      "description": "Wireless earbuds from Apple",
+      "price": 249,
+      "quantity": 15,
+      "image": "https://example.com/airpodspro.png"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "password": "password123"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "janesmith@example.com",
+      "password": "password456"
+    },
+    {
+      "id": 3,
+      "name": "Bob Johnson",
+      "email": "bjohnson@example.com",
+      "password": "password789"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 1,
+      "products": [
+        {
+          "id": 1,
+          "quantity": 2
+        },
+        {
+          "id": 5,
+          "quantity": 1
+        }
+      ],
+      "total": 1497,
+      "date": "2023-03-30"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "products": [
+        {
+          "id": 2,
+          "quantity": 1
+        }
+      ],
+      "total": 799,
+      "date": "2023-03-29"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "products": [
+        {
+          "id": 4,
+          "quantity": 3
+        },
+        {
+          "id": 5,
+          "quantity": 2
+        }
+      ],
+      "total": 1397,
+      "date": "2023-03-28"
+    }
+  ]
+}
