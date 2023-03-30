@@ -1,5 +1,14 @@
 {
   "products": [
+      {
+      "id": 4,
+      "name": "Thirdy dsdds",
+      "description": "Pogiss mo",
+      "price": 12,
+      "quantity": 2,
+      "image": "https://example.com/iphone13.png"
+    },
+    
        {
       "id": 1,
       "name": "Thirdy Gayares",
